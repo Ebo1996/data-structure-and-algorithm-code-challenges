@@ -7,10 +7,10 @@
 <p>Each word must be constructed from letters of <strong>sequentially adjacent cells</strong>, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.</p>
 
 <h3>Example 1:</h3>
-<p><strong>Input:</strong></p>
+
 <img src="https://assets.leetcode.com/uploads/2020/11/07/search1.jpg" alt="Board Input Example 1" />
 
-<pre>
+<pre><p><strong>Input:</strong></p>
 board = [["o","a","a","n"],
          ["e","t","a","e"],
          ["i","h","k","r"],
