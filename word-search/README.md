@@ -7,15 +7,21 @@
 <p>Each word must be constructed from letters of <strong>sequentially adjacent cells</strong>, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.</p>
 
 <h3>Example 1:</h3>
+<p><strong>Input:</strong></p>
+<img src="https://assets.leetcode.com/uploads/2020/11/07/search1.jpg" alt="Board Input Example 1" />
+
 <pre>
-Input: 
 board = [["o","a","a","n"],
          ["e","t","a","e"],
          ["i","h","k","r"],
          ["i","f","l","v"]],
 words = ["oath","pea","eat","rain"]
+</pre>
 
-Output: ["eat","oath"]
+<p><strong>Output:</strong></p>
+<img src="https://assets.leetcode.com/uploads/2020/11/07/search2.jpg" alt="Board Output Example 1" />
+<pre>
+["eat","oath"]
 </pre>
 
 <h3>Example 2:</h3>
@@ -25,7 +31,8 @@ board = [["a","b"],
          ["c","d"]],
 words = ["abcb"]
 
-Output: []
+Output:
+[]
 </pre>
 
 <h3>Constraints:</h3>
