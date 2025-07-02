@@ -19,19 +19,20 @@ words = ["oath","pea","eat","rain"]
 </pre>
 
 <p><strong>Output:</strong></p>
-<img src="https://assets.leetcode.com/uploads/2020/11/07/search2.jpg" alt="Board Output Example 1" />
+
 <pre>
 ["eat","oath"]
 </pre>
 
 <h3>Example 2:</h3>
 <pre>
+<img src="https://assets.leetcode.com/uploads/2020/11/07/search2.jpg" alt="Board Output Example 1" />
 Input:
 board = [["a","b"],
          ["c","d"]],
 words = ["abcb"]
 
-Output:
+
 []
 </pre>
 
